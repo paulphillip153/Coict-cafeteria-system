@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   }
+   .msg{
+       color:red;
+       font-size: 18px;
+   }
+   .form{
+       display: flex; 
+       align-items: center;
+       justify-content: center;
+       min-height: 100vh;
+       background-image:url('images/CoICT.jpg');
+       font-family:sans-serif;
+    } 
+   .form form{
+       background-color: rgb(244, 244, 244);
+       text-align:center;
+       box-shadow: 0px 6px 20px rgb(144, 144, 144); 
+       border-radius: 10px;
+       padding: 2rem; 
+       width: 28rem; 
+   }
+   .form form h2{
+               margin-bottom: 1.5rem;
+           }
+   .form form input{
+       padding: 10px 30px;
+       font-size: 20px;
+   }
+   .form form button{
+       width: 30%;
+       margin-top: 20px;
+       background-color:#16d445;
+       color: white; 
+       font-size: 20px; 
+   }
+   .form form p{
+       font-size: 20px;
+       margin-top: 20px;
+   }
